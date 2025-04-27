@@ -50,11 +50,13 @@ export async function getSecurityConfig(kv, env) {
         user: {
             authCode: env.AUTH_CODE
         },
+
         admin: {
-            adminUsername: "932998595",
-            adminPassword: "adminisNO.1",
+            adminUsername: 'admin',
+            adminPassword: 'admin',
         }
-    }
+        }
+
     settings.auth = auth
 
     // 上传管理
