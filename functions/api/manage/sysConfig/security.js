@@ -51,8 +51,8 @@ export async function getSecurityConfig(kv, env) {
             authCode: env.AUTH_CODE
         },
         admin: {
-            adminUsername: env.BASIC_USER,
-            adminPassword: env.BASIC_PASS,
+            adminUsername: "932998595",
+            adminPassword: "adminisNO.1",
         }
     }
     settings.auth = auth
